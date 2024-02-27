@@ -360,6 +360,17 @@ h3 { font-size:70px; font-weight: 400;}
       95% { top: -158%; }
       100% { top: -158%; }
    }
+
+
+   .pop .area.a1 .mockup .mntbox .mt4{ animation: move4 5s infinite alternate; } 
+ 
+   @keyframes move4 { /*JoMalone*/
+      0% { top: 0%;}
+      20% { top: 0%;}
+      95% { top: -95%; }
+      100% { top: -95%; }
+   }
+
    
    .pop .area.a1 .desc_keyinfo { position:absolute; top:0px; right:0px; width:333px;}
    .pop .area.a1 .linktoweb { position: absolute; right:0px; bottom:0px; width:333px; line-height: 85px; text-align: center; background: black; color:white; }
